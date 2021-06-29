@@ -9,4 +9,10 @@
 # 123
 # 1234
 
-# TODO: your code here
+n=int(input("Введите n: "))
+first=1
+add=1
+while first%10<=n:
+    print(first)
+    add=add+1
+    first = first * 10 + add
